@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tourism Overview — Province of Zamboanga del Norte</title>
+<link rel="icon" type="image-2/png" href="image/Seal-of-Zamboanga.png">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<nav class="top-navbar" role="navigation" aria-label="Main navigation">
+  <button class="burger-btn" id="burgerBtn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navPanel">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </button>
+  <a href="index.html" class="navbar-brand-wrap">
+    <div class="navbar-seal">
+      <img src="image-2/Seal-of-Zamboanga.png" alt="Seal of Zamboanga del Norte" onerror="this.style.display='none'">
+    </div>
+    <div class="navbar-brand-text">
+      <span class="brand-top">Province of</span>
+      <span class="brand-main">Zamboanga del Norte</span>
+    </div>
+  </a>
+</nav>
+
+<div class="nav-panel" id="navPanel" role="dialog" aria-label="Site navigation" aria-modal="true">
+  <div class="panel-topbar">
+    <button class="close-btn" id="closeBtn" aria-label="Close navigation">&#x2715;</button>
+    <a href="index.html" class="panel-brand">
+      <div class="panel-seal">
+        <img src="image-2/Seal-of-Zamboanga.png" alt="Seal" onerror="this.style.display='none'">
+      </div>
+      <div class="panel-brand-text">
+        <span class="pb-top">Province of</span>
+        <span class="pb-main">Zamboanga del Norte</span>
+      </div>
+    </a>
+  </div>
+  <nav class="panel-links">
+    <a href="index.html">Home</a>
+    <a href="tourism.html" class="active">Tourism</a>
+    <a href="economy.html">Economy</a>
+    <a href="officials.html">Officials</a>
+  </nav>
+  <div class="panel-footer">&copy; 2026 Zamboanga del Norte. All Rights Reserved.</div>
+</div>
+<div class="menu-overlay" id="menuOverlay" aria-hidden="true"></div>
+
+<!-- ══ TOURISM HERO ══ -->
+<section class="tourism-hero">
+  <img src="image-2/Zanorte.jpg" alt="Tourism in Zamboanga del Norte" class="welcome-bg-img" onerror="this.style.display='none'">
+  <div class="welcome-inner">
+    <span class="tourism-badge">Explore</span>
+    <h1>Tourism in Zamboanga del Norte</h1>
+    <div class="welcome-divider"></div>
+    <p>From azure coastlines to ancient traditions, Zamboanga del Norte offers extraordinary tourism experiences for every kind of traveler.</p>
+  </div>
+</section>
+
+<div class="main-content">
+  <div class="about-section">
+    <p>Zamboanga del Norte is one of Mindanao's most diverse tourism destinations, blending natural beauty, living indigenous culture, and rich history into an experience unlike anywhere else in the Philippines. Its long coastlines, forested highlands, and culturally vibrant communities make every visit a journey of discovery.</p>
+    <p>Whether you seek the thrill of adventure, the serenity of a beach sunrise, the warmth of a cultural festival, or the depth of historical learning, this province delivers. Explore our tourism categories below and plan your perfect itinerary in the Land of the Subanen.</p>
+  </div>
+</div>
+
+<div class="tourism-carousel-wrap">
+  <div id="tourismCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4500">
+
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#tourismCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#tourismCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#tourismCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#tourismCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#tourismCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="image-1/Dakak-2.jpg" class="d-block w-100" alt="Dakak Beach Resort" onerror="this.src=''; this.style.height='480px'; this.style.background='linear-gradient(135deg,#0f3d1f,#1e6133)'">
+        <div class="carousel-caption">
+          <span class="carousel-tag">Beach Tourism</span>
+          <h5>Dakak Beach Resort, Dapitan City</h5>
+          <p>One of the Philippines' premier beach destinations — powdery white sand, crystal-clear waters, lush tropical surroundings.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="image-1/Beach.jpg" class="d-block w-100" alt="Beach Tourism" onerror="this.src=''; this.style.height='480px'; this.style.background='linear-gradient(135deg,#0f3d1f,#174d28)'">
+        <div class="carousel-caption">
+          <span class="carousel-tag">Coastal Escapes</span>
+          <h5>Pristine Beaches of Zamboanga del Norte</h5>
+          <p>Sun-drenched shores along the Sulu and Bohol Seas, offering serene getaways and world-class marine experiences.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="image-1/Historical.jpg" class="d-block w-100" alt="Historical Tourism" onerror="this.src=''; this.style.height='480px'; this.style.background='linear-gradient(135deg,#0f3d1f,#1e6133)'">
+        <div class="carousel-caption">
+          <span class="carousel-tag">Historical Tourism</span>
+          <h5>Rizal Shrine, Dapitan City</h5>
+          <p>Walk in the footsteps of Dr. José Rizal — the national hero who lived, taught, and practiced medicine in Dapitan from 1892 to 1896.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="image-1/Cultural.jpg" class="d-block w-100" alt="Cultural Tourism" onerror="this.src=''; this.style.height='480px'; this.style.background='linear-gradient(135deg,#0f3d1f,#174d28)'">
+        <div class="carousel-caption">
+          <span class="carousel-tag">Cultural Tourism</span>
+          <h5>Living Heritage of the Subanen People</h5>
+          <p>Experience the vibrant traditions, intricate crafts, sacred ceremonies, and warm hospitality of one of the Philippines' oldest indigenous groups.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="image-1/Eco.jpg" class="d-block w-100" alt="Eco Tourism" onerror="this.src=''; this.style.height='480px'; this.style.background='linear-gradient(135deg,#0f3d1f,#1e6133)'">
+        <div class="carousel-caption">
+          <span class="carousel-tag">Eco-Tourism</span>
+          <h5>Forests, Highlands &amp; Natural Wonders</h5>
+          <p>Trek through lush forests, discover hidden waterfalls, and explore the rich biodiversity of the Zamboanga Peninsula's interior.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#tourismCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#tourismCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<div class="category-grid">
+
+  <a href="beach.html" class="cat-card">
+    <img src="image-1/Beach.jpg" alt="Beach Tourism" class="cat-card-img" onerror="this.outerHTML='<div class=&quot;cat-card-ph&quot;>Beach Tourism</div>'">
+    <div class="cat-card-body"><h3>Beach Tourism</h3><p>Sun, sand, and sparkling seas</p></div>
+  </a>
+
+  <a href="eco.html" class="cat-card">
+    <img src="image-1/Eco.jpg" alt="Eco-Tourism" class="cat-card-img" onerror="this.outerHTML='<div class=&quot;cat-card-ph&quot;>Eco-Tourism</div>'">
+    <div class="cat-card-body"><h3>Eco-Tourism</h3><p>Nature trails and green sanctuaries</p></div>
+  </a>
+
+  <a href="mountain.html" class="cat-card">
+    <img src="image-2/Mountain.jpg" alt="Mountain Tourism" class="cat-card-img" onerror="this.outerHTML='<div class=&quot;cat-card-ph&quot;>Mountain Tourism</div>'">
+    <div class="cat-card-body"><h3>Mountain Tourism</h3><p>Highlands, peaks, and cool air</p></div>
+  </a>
+
+  <a href="waterfall.html" class="cat-card">
+    <img src="image-2/Waterfall.jpg" alt="Waterfall Tourism" class="cat-card-img" onerror="this.outerHTML='<div class=&quot;cat-card-ph&quot;>Waterfall Tourism</div>'">
+    <div class="cat-card-body"><h3>Waterfall Tourism</h3><p>Cascading wonders in the wild</p></div>
+  </a>
+
+  <a href="cultural.html" class="cat-card">
+    <img src="image-1/Cultural.jpg" alt="Cultural Tourism" class="cat-card-img" onerror="this.outerHTML='<div class=&quot;cat-card-ph&quot;>Cultural Tourism</div>'">
+    <div class="cat-card-body"><h3>Cultural Tourism</h3><p>Traditions and living heritage</p></div>
+  </a>
+
+  <a href="historical.html" class="cat-card">
+    <img src="image-1/Historical.jpg" alt="Historical Tourism" class="cat-card-img" onerror="this.outerHTML='<div class=&quot;cat-card-ph&quot;>Historical Tourism</div>'">
+    <div class="cat-card-body"><h3>Historical Tourism</h3><p>Sites that shaped the nation</p></div>
+  </a>
+
+  <a href="festival.html" class="cat-card">
+    <img src="image-1/Festival.jpg" alt="Festival Tourism" class="cat-card-img" onerror="this.outerHTML='<div class=&quot;cat-card-ph&quot;>Festival Tourism</div>'">
+    <div class="cat-card-body"><h3>Festival Tourism</h3><p>Vibrant celebrations and fiestas</p></div>
+  </a>
+
+  <a href="marine.html" class="cat-card">
+    <img src="image-1/Marine.jpg" alt="Marine Tourism" class="cat-card-img" onerror="this.outerHTML='<div class=&quot;cat-card-ph&quot;>Marine Tourism</div>'">
+    <div class="cat-card-body"><h3>Marine Tourism</h3><p>Dive into underwater paradise</p></div>
+  </a>
+
+  <a href="wellness.html" class="cat-card">
+    <img src="image-2/Welness.jpg" alt="Wellness Tourism" class="cat-card-img" onerror="this.outerHTML='<div class=&quot;cat-card-ph&quot;>Wellness Tourism</div>'">
+    <div class="cat-card-body"><h3>Wellness Tourism</h3><p>Rest, rejuvenate, and restore</p></div>
+  </a>
+
+  <a href="food.html" class="cat-card">
+    <img src="image-1/Food.jpg" alt="Food Tourism" class="cat-card-img" onerror="this.outerHTML='<div class=&quot;cat-card-ph&quot;>Food Tourism</div>'">
+    <div class="cat-card-body"><h3>Food Tourism</h3><p>Flavors unique to the province</p></div>
+  </a>
+
+  <a href="adventure.html" class="cat-card">
+    <img src="image-1/Adventure.jpg" alt="Adventure Tourism" class="cat-card-img" onerror="this.outerHTML='<div class=&quot;cat-card-ph&quot;>Adventure Tourism</div>'">
+    <div class="cat-card-body"><h3>Adventure Tourism</h3><p>Thrills for the bold traveler</p></div>
+  </a>
+
+  <a href="camping.html" class="cat-card">
+    <img src="image-1/Camping.jpg" alt="Camping Tourism" class="cat-card-img" onerror="this.outerHTML='<div class=&quot;cat-card-ph&quot;>Camping Tourism</div>'">
+    <div class="cat-card-body"><h3>Camping Tourism</h3><p>Sleep under the stars</p></div>
+  </a>
+
+  <a href="rural.html" class="cat-card">
+    <img src="image-2/Rural.jpg" alt="Rural Tourism" class="cat-card-img" onerror="this.outerHTML='<div class=&quot;cat-card-ph&quot;>Rural Tourism</div>'">
+    <div class="cat-card-body"><h3>Rural Tourism</h3><p>Countryside life and farm stays</p></div>
+  </a>
+
+  <a href="religious.html" class="cat-card">
+    <img src="image-2/Religious.jpg" alt="Religious Tourism" class="cat-card-img" onerror="this.outerHTML='<div class=&quot;cat-card-ph&quot;>Religious Tourism</div>'">
+    <div class="cat-card-body"><h3>Religious Tourism</h3><p>Pilgrimage and sacred sites</p></div>
+  </a>
+
+  <a href="wildlife.html" class="cat-card">
+    <img src="image-2/Wildlife.jpg" alt="Wildlife Tourism" class="cat-card-img" onerror="this.outerHTML='<div class=&quot;cat-card-ph&quot;>Wildlife Tourism</div>'">
+    <div class="cat-card-body"><h3>Wildlife Tourism</h3><p>Fauna and natural habitats</p></div>
+  </a>
+
+  <a href="shopping.html" class="cat-card">
+    <img src="image-2/Shopping.jpg" alt="Shopping Tourism" class="cat-card-img" onerror="this.outerHTML='<div class=&quot;cat-card-ph&quot;>Shopping Tourism</div>'">
+    <div class="cat-card-body"><h3>Shopping Tourism</h3><p>Local crafts and market finds</p></div>
+  </a>
+
+  <a href="sports.html" class="cat-card">
+    <img src="image-2/Sports.jpg" alt="Sports Tourism" class="cat-card-img" onerror="this.outerHTML='<div class=&quot;cat-card-ph&quot;>Sports Tourism</div>'">
+    <div class="cat-card-body"><h3>Sports Tourism</h3><p>Compete and play in paradise</p></div>
+  </a>
+
+  <a href="educational.html" class="cat-card">
+    <img src="image-1/Educational.jpg" alt="Educational Tourism" class="cat-card-img" onerror="this.outerHTML='<div class=&quot;cat-card-ph&quot;>Educational Tourism</div>'">
+    <div class="cat-card-body"><h3>Educational Tourism</h3><p>Learn, explore, and discover</p></div>
+  </a>
+
+  <a href="cruise.html" class="cat-card">
+    <img src="image-1/Cruise.jpg" alt="Cruise/Coastal Tourism" class="cat-card-img" onerror="this.outerHTML='<div class=&quot;cat-card-ph&quot;>Cruise/Coastal Tourism</div>'">
+    <div class="cat-card-body"><h3>Cruise / Coastal</h3><p>Sail the emerald coastline</p></div>
+  </a>
+
+  <a href="urban.html" class="cat-card">
+    <img src="image-2/Urban.jpg" alt="Urban Tourism" class="cat-card-img" onerror="this.outerHTML='<div class=&quot;cat-card-ph&quot;>Urban Tourism</div>'">
+    <div class="cat-card-body"><h3>Urban Tourism</h3><p>City life and modern attractions</p></div>
+  </a>
+
+</div>
+
+<div class="tips-box">
+  <h3>Planning Your Visit</h3>
+  <ul class="tips-list">
+    <li>Best time to visit: November to May (dry season) for most outdoor activities.</li>
+    <li>Dipolog City and Dapitan City are the main entry points with bus and air connections.</li>
+    <li>Book accommodations in advance during festival seasons (April&ndash;May).</li>
+    <li>Respect indigenous Subanen customs when visiting highland communities.</li>
+    <li>Bring valid ID &mdash; some heritage and national park sites require visitor registration.</li>
+    <li>Local tricycles, habal-habal motorbikes, and vans-for-hire are the main transport modes.</li>
+  </ul>
+</div>
+
+<footer>
+  <p>&copy; 2026 Province of Zamboanga del Norte. All Rights Reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  const burgerBtn = document.getElementById('burgerBtn');
+  const closeBtn  = document.getElementById('closeBtn');
+  const navPanel  = document.getElementById('navPanel');
+  const overlay   = document.getElementById('menuOverlay');
+
+  function openPanel() {
+    navPanel.classList.add('open');
+    overlay.classList.add('open');
+    burgerBtn.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
+  }
+  function closePanel() {
+    navPanel.classList.remove('open');
+    overlay.classList.remove('open');
+    burgerBtn.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  }
+
+  burgerBtn.addEventListener('click', openPanel);
+  closeBtn.addEventListener('click', closePanel);
+  overlay.addEventListener('click', closePanel);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closePanel(); });
+  navPanel.querySelectorAll('a').forEach(a => a.addEventListener('click', closePanel));
+</script>
+</body>
+</html>

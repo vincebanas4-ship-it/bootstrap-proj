@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adventure Tourism — Province of Zamboanga del Norte</title>
+<link rel="icon" type="image/png" href="image-2/Seal-of-Zamboanga.png">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<nav class="top-navbar" role="navigation" aria-label="Main navigation">
+  <button class="burger-btn" id="burgerBtn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navPanel"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
+  <a href="index.html" class="navbar-brand-wrap"><div class="navbar-seal"><img src="image-2/Seal-of-Zamboanga.png" alt="Seal" onerror="this.style.display='none'"></div><div class="navbar-brand-text"><span class="brand-top">Province of</span><span class="brand-main">Zamboanga del Norte</span></div></a>
+</nav>
+<div class="nav-panel" id="navPanel" role="dialog" aria-label="Site navigation" aria-modal="true">
+  <div class="panel-topbar"><button class="close-btn" id="closeBtn" aria-label="Close navigation">&#x2715;</button><a href="index.html" class="panel-brand"><div class="panel-seal"><img src="image-2/Seal-of-Zamboanga.png" alt="Seal" onerror="this.style.display='none'"></div><div class="panel-brand-text"><span class="pb-top">Province of</span><span class="pb-main">Zamboanga del Norte</span></div></a></div>
+  <nav class="panel-links"><a href="index.html">Home</a><a href="tourism.html" class="active">Tourism</a><a href="economy.html">Economy</a><a href="officials.html">Officials</a></nav>
+  <div class="panel-footer">&copy; 2026 Zamboanga del Norte. All Rights Reserved.</div>
+</div>
+<div class="menu-overlay" id="menuOverlay" aria-hidden="true"></div>
+<section class="tourism-hero">
+  <img src="image-1/Adventure.jpg" alt="Adventure Tourism" class="welcome-bg-img" onerror="this.style.display='none'">
+  <div class="welcome-inner"><span class="tourism-badge">Adventure Tourism</span><h1>Adventure Tourism</h1><div class="welcome-divider"></div><p>Push your limits with thrilling outdoor adventures across the mountains, rivers, and seas of Zamboanga del Norte.</p></div>
+</section>
+<div class="main-content"><div class="about-section">
+  <p>Zamboanga del Norte's diverse terrain — from rugged mountain ranges and fast-flowing rivers to open sea coastlines and cave systems — creates a natural playground for adventure tourism. Whether you prefer the rush of whitewater, the challenge of a multi-day mountain climb, the freedom of open-water kayaking, or the thrill of cliff diving from limestone outcrops, the province has an adventure for every level of daring.</p>
+  <p>Adventure tourism in Zamboanga del Norte is still largely undeveloped, meaning most experiences retain the raw authenticity of genuine wilderness adventure rather than the managed safety of commercial adventure parks. Always prioritize safety and engage experienced local guides.</p>
+</div></div>
+<section class="spots-section">
+  <h2 class="spots-section-title">Adventure Destinations &amp; Activities</h2>
+  <p class="spots-section-sub">Seek thrills and challenges across the wild landscapes of Zamboanga del Norte.</p>
+  <div class="spots-grid">
+    <div class="spot-card">
+      <img src="image-2/Salug-Kayak.jpg" alt="Whitewater Kayaking" class="spot-card-img" onerror="this.outerHTML='&lt;div class=&quot;spot-card-ph&quot;&gt;Whitewater Kayaking&lt;/div&gt;'">
+      <div class="spot-card-body">
+        <div class="spot-card-tag">River Adventure</div>
+        <h3>Whitewater Kayaking, Salug River</h3>
+        <p>The upper reaches of the Salug River offer exciting whitewater sections suitable for experienced kayakers and rafters. Multi-day river expeditions can be arranged with local adventure outfitters from Sindangan.</p>
+        <div class="spot-card-meta"><span><i class="bi bi-geo-alt"></i> Salug / Sindangan</span><span><i class="bi bi-tag"></i> Whitewater</span></div>
+      </div>
+    </div>
+    <div class="spot-card">
+      <img src="image-2/Rock-Climbing.jpg" alt="Rock Climbing" class="spot-card-img" onerror="this.outerHTML='&lt;div class=&quot;spot-card-ph&quot;&gt;Rock Climbing&lt;/div&gt;'">
+      <div class="spot-card-body">
+        <div class="spot-card-tag">Vertical Adventure</div>
+        <h3>Rock Climbing, Dipolog Crags</h3>
+        <p>Natural limestone and volcanic rock formations in the hills above Dipolog City offer sport climbing routes ranging from beginner to advanced. A small but growing local climbing community maintains routes and offers guided sessions.</p>
+        <div class="spot-card-meta"><span><i class="bi bi-geo-alt"></i> Dipolog City</span><span><i class="bi bi-tag"></i> Rock Climbing</span></div>
+      </div>
+    </div>
+    <div class="spot-card">
+      <img src="image-1/Cave.jpg" alt="Cave Exploration" class="spot-card-img" onerror="this.outerHTML='&lt;div class=&quot;spot-card-ph&quot;&gt;Cave Exploration&lt;/div&gt;'">
+      <div class="spot-card-body">
+        <div class="spot-card-tag">Spelunking</div>
+        <h3>Cave Exploration, Interior Caves</h3>
+        <p>The karst terrain of parts of Zamboanga del Norte conceals cave systems yet to be fully mapped. Local adventure guides lead caving expeditions through chambers with stalactite formations, underground streams, and bat colonies.</p>
+        <div class="spot-card-meta"><span><i class="bi bi-geo-alt"></i> Interior Municipalities</span><span><i class="bi bi-tag"></i> Spelunking</span></div>
+      </div>
+    </div>
+    <div class="spot-card">
+      <img src="image-2/MTB-Siayan.jpg" alt="Mountain Biking" class="spot-card-img" onerror="this.outerHTML='&lt;div class=&quot;spot-card-ph&quot;&gt;Mountain Biking&lt;/div&gt;'">
+      <div class="spot-card-body">
+        <div class="spot-card-tag">Cycling Adventure</div>
+        <h3>Mountain Biking, Siayan Trails</h3>
+        <p>The highland trails and farm roads of Siayan municipality are growing in popularity with mountain bikers. The terrain offers everything from gentle farm trail rides to technical downhill sections through forest.</p>
+        <div class="spot-card-meta"><span><i class="bi bi-geo-alt"></i> Siayan</span><span><i class="bi bi-tag"></i> Mountain Biking</span></div>
+      </div>
+    </div>
+    <div class="spot-card">
+      <img src="image-2/Open-Water.jpg" alt="Open-Water Swimming" class="spot-card-img" onerror="this.outerHTML='&lt;div class=&quot;spot-card-ph&quot;&gt;Open-Water Swimming&lt;/div&gt;'">
+      <div class="spot-card-body">
+        <div class="spot-card-tag">Ocean Adventure</div>
+        <h3>Open-Water Swimming, Dakak</h3>
+        <p>The calm, crystal-clear waters of Dakak Beach are ideal for long-distance open-water swimming. Organized open-water swimming events are periodically held along the Dapitan coastline.</p>
+        <div class="spot-card-meta"><span><i class="bi bi-geo-alt"></i> Dapitan City</span><span><i class="bi bi-tag"></i> Open-Water Swimming</span></div>
+      </div>
+    </div>
+    <div class="spot-card">
+      <img src="image-1/Cliff-Diving.jpg" alt="Cliff Diving" class="spot-card-img" onerror="this.outerHTML='&lt;div class=&quot;spot-card-ph&quot;&gt;Cliff Diving&lt;/div&gt;'">
+      <div class="spot-card-body">
+        <div class="spot-card-tag">Thrill Seeking</div>
+        <h3>Cliff Diving, Coastal Rock Formations</h3>
+        <p>Several coastal sites along the province's rugged coastline feature limestone cliffs and rock platforms used for cliff jumping and diving into deep, clear sea water — a thrilling activity best done with local knowledge.</p>
+        <div class="spot-card-meta"><span><i class="bi bi-geo-alt"></i> Coastal Areas</span><span><i class="bi bi-tag"></i> Cliff Diving</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="tips-box"><h3>Travel Tips &amp; Visitor Information</h3><ul class="tips-list">
+  <li>Always engage a local professional guide for river, cave, and mountain adventures — safety comes first.</li>
+  <li>Check weather conditions before any outdoor adventure — rivers can rise dangerously fast during rain.</li>
+  <li>Bring a basic first-aid kit and inform someone of your adventure plans and expected return.</li>
+  <li>Rock climbing and caving require helmets — ensure your guide provides or that you bring your own.</li>
+  <li>Cliff diving should only be attempted after local guides assess depth and underwater hazards at the specific site.</li>
+  <li>Adventure tourism in the province is still developing — be prepared for less infrastructure than commercial adventure parks.</li>
+</ul></div>
+<footer><p>&copy; 2026 Province of Zamboanga del Norte. All Rights Reserved.</p></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  const b=document.getElementById('burgerBtn'),c=document.getElementById('closeBtn'),n=document.getElementById('navPanel'),o=document.getElementById('menuOverlay');
+  function op(){n.classList.add('open');o.classList.add('open');b.setAttribute('aria-expanded','true');document.body.style.overflow='hidden';}
+  function cl(){n.classList.remove('open');o.classList.remove('open');b.setAttribute('aria-expanded','false');document.body.style.overflow='';}
+  b.addEventListener('click',op);c.addEventListener('click',cl);o.addEventListener('click',cl);
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')cl();});
+  n.querySelectorAll('a').forEach(a=>a.addEventListener('click',cl));
+</script>
+</body>
+</html>
